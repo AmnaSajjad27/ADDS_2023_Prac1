@@ -13,7 +13,7 @@ class Computer: public Player
 
     // get name 
     // override 
-    std::string get_name() override;
+    string get_name() override;
 };
 
 #endif

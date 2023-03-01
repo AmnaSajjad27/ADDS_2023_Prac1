@@ -2,9 +2,9 @@
 #include "Human.h"
 #include <string>
 
-using namespace std:
+using namespace std;
 
-HHuman::Human(string name, string move):Player(Name,Move){
+Human::Human(string name, string move):Player(Name,Move){
     name = "Human";
 }
 
