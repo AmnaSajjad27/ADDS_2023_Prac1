@@ -5,7 +5,6 @@
 #include "Computer.h"
 
 #include <iostream> 
-#include <stdlib> 
 
 class Referee
 {

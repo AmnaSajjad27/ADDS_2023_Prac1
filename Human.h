@@ -3,7 +3,6 @@
 #define HUMAN_H
 #include "Player.h"
 #include <iostream> 
-#include <stdlib> 
 
 using namespace std;
 
