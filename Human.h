@@ -13,7 +13,9 @@ class Human: public Player
 
     // get name 
     // override 
-    std::string get_name() override;
+    string getName() override;
+    string makeMove() override;
+
 };
 
 #endif

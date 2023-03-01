@@ -22,7 +22,3 @@ void Player::makeMove(string move)
 {
     Move = move;
 }
-char Player::getMove()
-{
-    return move;
-}

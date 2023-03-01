@@ -14,12 +14,13 @@ string Player::getName(string name)
 {
     cout << "Enter your name:"
     cin >> name;
+    return name;
 }
 
 
 // function that gets the move 
 
-void Player::makeMove(string move)
+string Player::makeMove(string move)
 {
     //Enter R,P or S 
     cout << "Enter Move:";
@@ -31,4 +32,5 @@ void Player::makeMove(string move)
         cout << "INVALID INPUT, PLEASE ENTER R, P OR S" << endl;
         return;
     }
+    return move;
 }
