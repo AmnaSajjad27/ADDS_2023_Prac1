@@ -24,7 +24,7 @@ class Player
 
     // get the name and move of the player 
     virtual string getName() = 0;
-    Virtual char getMove()= 0;
+    virtual char getMove()= 0;
 
     // Destructor 
     ~Player(){};
