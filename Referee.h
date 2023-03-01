@@ -1,5 +1,5 @@
 // Inherited class Computer 
-#ifndef REFEREE-H
+#ifndef REFEREE_H
 #define REFEREE_H
 #include "Human.h"
 #include "Computer.h"
