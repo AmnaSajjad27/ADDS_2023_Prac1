@@ -10,7 +10,7 @@ Human::Human(string name, string move):Player(Name,Move){
 
 // function that gets the name 
 
-void Player::get_name(string name)
+string Player::getName(string name)
 {
     cout << "Enter your name:"
     cin >> name;

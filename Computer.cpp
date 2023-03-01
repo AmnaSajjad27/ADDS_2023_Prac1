@@ -12,7 +12,7 @@ void set_Name(string name)
 {
     name = "Computer";
 }
-string get_name()
+string Player::getName()
 {
     return name;
 }
