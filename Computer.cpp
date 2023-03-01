@@ -14,5 +14,5 @@ void set_Name(string name)
 }
 string Player::getName()
 {
-    return name;
+    return Name;
 }
