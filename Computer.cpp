@@ -2,9 +2,9 @@
 #include "Computer.h"
 #include <string>
 
-using namespace std:
+using namespace std;
 
 Computer::Computer(string name, string move):Player(Name,Move){
-    name = 'Computer';
+    name = "Computer";
     move = 'R';
 }

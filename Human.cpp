@@ -5,7 +5,7 @@
 using namespace std:
 
 HHuman::Human(string name, string move):Player(Name,Move){
-    name = 'Human';
+    name = "Human";
 }
 
 // function that gets the name 
