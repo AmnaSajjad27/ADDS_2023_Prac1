@@ -1,7 +1,7 @@
 #include "Referee.h"
 #include <string>
 
-using namespace std:
+using namespace std;
 
 Referee::Referee(Player * player1, Player * player2)
 {

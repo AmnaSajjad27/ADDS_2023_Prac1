@@ -10,7 +10,7 @@ class Referee
 {
     Public:
     Referee(); // constructor
-    Player * refGame(Player * player1, Player * player2)
+    Player * refGame(Player * player1, Player * player2);
     // returns the reference to the winning player
 
 };
