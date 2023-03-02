@@ -4,17 +4,16 @@
 #include "Player.h"
 #include <iostream> 
 
-using namespace std;
 
 class Human: public Player
 {
 
-    Human(string name, string move);
+    Human(std::string name, std::string move);
 
     // get name 
     // override 
-    string getName() override;
-    string makeMove() override;
+    std::string getName() override;
+    std::string makeMove() override;
 
 };
 

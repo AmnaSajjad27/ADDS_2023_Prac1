@@ -16,3 +16,13 @@ string Player::getName()
 {
     return Name;
 }
+
+string Player::makeMove(string move)
+{
+    move = 'R';
+}
+
+string Player::getMove()
+{
+    return Move;
+}

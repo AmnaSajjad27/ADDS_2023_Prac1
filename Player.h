@@ -5,25 +5,23 @@
 #include <iostream> 
 #include <string>
 
-using namespace std;
-
 class Player
 {
     protected:
     // Each player has a name and its move
-    string Name;
-    string Move;
+    std::string Name;
+    std::string Move;
 
     public:
 
-    Player(string name, string move);
+    Player(std::string name, std::string move);
 
     // set the name and move of the player 
-    void setName(string name);
-    void makeMove(string move);
+    void setName(std::string name);
+    void makeMove(std::string move);
 
     // get the name and move of the player 
-    virtual string getName() = 0;
+    virtual std::string getName() = 0;
     virtual char getMove()= 0;
 
     // Destructor 
