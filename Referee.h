@@ -1,4 +1,3 @@
-// Inherited class Computer 
 #ifndef REFEREE_H
 #define REFEREE_H
 #include "Human.h"
