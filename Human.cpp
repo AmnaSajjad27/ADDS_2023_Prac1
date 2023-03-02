@@ -34,3 +34,8 @@ string Player::makeMove(string move)
     }
     return move;
 }
+
+string Player::getMove()
+{
+    return Move;
+}

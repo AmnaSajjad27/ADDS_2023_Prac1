@@ -3,6 +3,8 @@
 
 // constructor 
 
+using namespace std;
+
 Player::Player(string name, string move)
 {
     Name = name;

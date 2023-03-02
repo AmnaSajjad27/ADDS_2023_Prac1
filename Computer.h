@@ -12,6 +12,7 @@ class Computer: public Player
     // get name 
     // override 
     std::string getName() override;
+    char MakeMove() override;
 };
 
 #endif
