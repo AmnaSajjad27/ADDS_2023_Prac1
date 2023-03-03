@@ -24,18 +24,18 @@ using namespace std;
     }
     if (h == 'R' && c == 'S')
     {
-        return player1;
+        return player2;
     }
     if (h == 'S' && c == 'P')
     {
-        return player1;
+        return player2;
     }
     if (h == 'P' && c == 'R')
     {
-        return player2;
+        return player1;
     }
     else 
     {
-        return player1;
+        return player2;
     }
 }
