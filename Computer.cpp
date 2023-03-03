@@ -4,27 +4,15 @@
 
 using namespace std;
 
-Computer::Computer(string name, string move):Player(Name,Move){
-    name = "Computer";
-    move = 'R';
-}
-
-void set_Name(string name)
+// default contructor 
+Computer::Computer()
 {
-    name = "Computer";
-}
-string Player::getName()
-{
-    return Name;
+    makeMove();
+    this->setName("Computer");
 }
 
-
-string Player::makeMove(string move)
+char Computer::makeMove(string move)
 {
     move = 'R';
-}
-
-string Player::getMove()
-{
-    return Move;
+    return move;
 }

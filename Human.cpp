@@ -20,14 +20,15 @@ string Player::getName(string name)
 
 // function that gets the move 
 
-string Player::makeMove(string move)
+char Human::makeMove()
 {
+    char move;
     //Enter R,P or S 
     cout << "Enter Move:";
     cout << endl;
     cin >> move;
 
-    if (move != 'R' || move != 'P' || move != 'S')
+    while (move != 'R' || move != 'P' || move != 'S')
     {
         cout << "INVALID INPUT, PLEASE ENTER R, P OR S" << endl;
         return;

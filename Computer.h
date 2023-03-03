@@ -6,13 +6,10 @@
 
 class Computer: public Player
 {
-
-    Computer(std::string name, std::string move);
-
+    public:
+    Computer();
     // get name 
     // override 
-    std::string getName() override;
     char MakeMove() override;
 };
-
 #endif

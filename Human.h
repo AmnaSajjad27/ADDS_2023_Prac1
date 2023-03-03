@@ -8,13 +8,12 @@
 class Human: public Player
 {
 
-    Human(std::string name, std::string move);
+    Human::Human();
 
     // get name 
     // override 
-    std::string getName() override;
-    std::string makeMove() override;
-
+    std::string getName();
+    char makeMove() override;
 };
 
 #endif

@@ -1,3 +1,5 @@
+// collabrated with Andy Le
+
 #ifndef PLAYER_H
 #define PLAYER_H
 
@@ -10,23 +12,19 @@ class Player
     protected:
     // Each player has a name and its move
     std::string Name;
-    std::string Move;
+    char Move;
 
     public:
 
-    Player(std::string name, std::string move);
-
     // set the name and move of the player 
     void setName(std::string name);
-    void makeMove(std::string move);
+    virtual void makeMove(std::string move) = 0;
 
     // get the name and move of the player 
-    virtual std::string getName() = 0;
-    virtual char getMove()= 0;
+    std::string getName();
+    char getMove();
 
     // Destructor 
     ~Player(){};
-
 };
-
 #endif
