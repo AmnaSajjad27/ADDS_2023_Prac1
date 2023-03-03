@@ -10,7 +10,7 @@ class Computer: public Player
     Computer();
     // get name 
     // override 
-    char MakeMove() override;
+    char makeMove();
 };
 
 #endif

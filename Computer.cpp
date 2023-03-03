@@ -1,4 +1,4 @@
-#include "Player.h"
+
 #include "Computer.h"
 #include <string>
 
@@ -7,8 +7,7 @@ using namespace std;
 // default contructor 
 Computer::Computer()
 {
-    makeMove();
-    this->setName("Computer");
+    this->Name = "Computer";
 }
 
 char Computer::makeMove()

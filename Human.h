@@ -7,12 +7,12 @@
 
 class Human: public Player
 {
-    Human::Human();
+    Human();
 
     // get name 
     // override 
-    Human(std::String setName);
-    char makeMove() override;
+    Human(std::string setName);
+    char makeMove();
 };
 
 #endif

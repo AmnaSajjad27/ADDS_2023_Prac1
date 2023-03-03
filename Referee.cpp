@@ -3,7 +3,7 @@
 
 using namespace std;
 
-    Referee::Referee;
+    Referee::Referee(){};
 
     Player * Referee::refGame(Player * player1, Player * player2)
     {
@@ -11,17 +11,31 @@ using namespace std;
     char c = player2->makeMove();
 
     if (h == 'R' && c == 'R')
+    {
         return nullptr;
+    }
     if (h == 'P' && c == 'P')
+    {
         return nullptr;
+    }
     if (h == 'S' && c == 'S')
+    {
         return nullptr;
+    }
     if (h == 'R' && c == 'S')
-        return h;
+    {
+        return player1;
+    }
     if (h == 'S' && c == 'P')
-        return h;
+    {
+        return player1;
+    }
     if (h == 'P' && c == 'R')
-        return h;
+    {
+        return player2;
+    }
     else 
-        return c;
+    {
+        return player1;
+    }
 }

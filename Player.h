@@ -17,13 +17,13 @@ class Player
     public:
 
     // set the name and move of the player 
-    void setName(std::string name);
-    virtual void makeMove(std::string move) = 0;
+    // void setName(std::string name); 
+    virtual char makeMove() = 0;
 
     // get the name and move of the player 
     std::string getName();
 
     // Destructor 
-    ~Player(){};
+    ~Player();
 };
 #endif

@@ -1,12 +1,11 @@
-#include "Player.h"
+
 #include "Human.h"
-#include <string>
 
 using namespace std;
 
 Human::Human()
 {
-    Name = "Human";
+    this->Name = "Human";
 }
 Human::Human(std::string name)
 {
@@ -20,7 +19,7 @@ char Human::makeMove()
     char temp = ' ';
     //Enter R,P or S 
 
-    while (move != 'R' || move != 'P' || move != 'S')
+    while (temp != 'R' || temp != 'P' || temp != 'S')
     {
         std::cout << "Enter Move:";
         std::cin >> temp;
