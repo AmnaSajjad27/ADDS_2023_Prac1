@@ -19,7 +19,7 @@ string Player::getName(string name)
 
 
 // function that gets the move 
-
+// commitng 
 char Human::makeMove()
 {
     char move;
