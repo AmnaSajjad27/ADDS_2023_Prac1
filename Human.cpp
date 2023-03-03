@@ -19,7 +19,7 @@ char Human::makeMove()
     char temp = ' ';
     //Enter R,P or S 
 
-    while (temp != 'R' || temp != 'P' || temp != 'S')
+    while (temp != 'R' && temp != 'P' && temp != 'S')
     {
         std::cout << "Enter Move:";
         std::cin >> temp;
