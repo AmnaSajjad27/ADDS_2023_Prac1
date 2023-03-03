@@ -12,4 +12,5 @@ class Computer: public Player
     // override 
     char MakeMove() override;
 };
+
 #endif

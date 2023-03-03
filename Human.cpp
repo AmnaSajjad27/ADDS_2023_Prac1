@@ -4,39 +4,26 @@
 
 using namespace std;
 
-Human::Human(string name, string move):Player(Name,Move){
-    name = "Human";
-}
-
-// function that gets the name 
-
-string Player::getName(string name)
+Human::Human()
 {
-    cout << "Enter your name:"
-    cin >> name;
-    return name;
+    Name = "Human";
 }
-
+Human::Human(std::string name)
+{
+    this->Name = name;
+}
 
 // function that gets the move 
 // commitng 
 char Human::makeMove()
 {
-    char move;
+    char temp = ' ';
     //Enter R,P or S 
-    cout << "Enter Move:";
-    cout << endl;
-    cin >> move;
 
     while (move != 'R' || move != 'P' || move != 'S')
     {
-        cout << "INVALID INPUT, PLEASE ENTER R, P OR S" << endl;
-        return;
+        std::cout << "Enter Move:";
+        std::cin >> temp;
     }
-    return move;
-}
-
-string Player::getMove()
-{
-    return Move;
+    return temp;
 }

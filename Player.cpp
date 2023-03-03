@@ -17,8 +17,3 @@ string Player::getName()
 {
     return Name;
 }
-
-char Player::getMove()
-{
-    return Move;
-}

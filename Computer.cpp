@@ -11,8 +11,7 @@ Computer::Computer()
     this->setName("Computer");
 }
 
-char Computer::makeMove(string move)
+char Computer::makeMove()
 {
-    move = 'R';
-    return move;
+    return 'R';
 }

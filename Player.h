@@ -22,7 +22,6 @@ class Player
 
     // get the name and move of the player 
     std::string getName();
-    char getMove();
 
     // Destructor 
     ~Player(){};
