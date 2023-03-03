@@ -7,6 +7,7 @@
 
 class Human: public Player
 {
+    public:
     Human();
 
     // get name 
